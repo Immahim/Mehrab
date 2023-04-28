@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.wrapper-full {
+	width: 100%;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clr {
+	clear: both;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+
+	overflow: hidden;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+}
+
+.nav-bar li {
+	float: left;
+}
+
+.nav-bar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.nav-bar li a:hover {
+	background-color: #111111;
+}
